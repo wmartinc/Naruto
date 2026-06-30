@@ -1,0 +1,215 @@
+{
+  "equipos": [
+    {
+      "id": "team7",
+      "nombre": "Team 7",
+      "descripcion": "Equipo liderado por Kakashi Hatake, compuesto por los protagonistas principales de la serie.",
+      "miembros": [
+        {
+          "id": "naruto",
+          "nombre": "Naruto Uzumaki",
+          "clan": "Uzumaki",
+          "aldea": "Konoha",
+          "rango": "Hokage (Séptimo)",
+          "descripcion": "El niño prodigio que pasó de ser un marginado a convertirse en el líder de su aldea, portador del Nueve Colas.",
+          "poderes": ["Modo Sabio de los Seis Caminos", "Rasengan", "Bola Bestia con Cola", "Modo Kurama", "Clones de Sombra"],
+          "imagen": "https://i.pinimg.com/736x/d6/82/d8/d682d8f1f733ef8ed1126745a9f303e3.jpg"
+        },
+        {
+          "id": "sasuke",
+          "nombre": "Sasuke Uchiha",
+          "clan": "Uchiha",
+          "aldea": "Konoha",
+          "rango": "Viajero (exiliado voluntario)",
+          "descripcion": "El último sobreviviente del Clan Uchiha, buscó venganza contra su hermano Itachi y luego redimió su camino.",
+          "poderes": ["Sharingan", "Mangekyō Sharingan", "Rinnegan", "Susanoo", "Amaterasu", "Kagutsuchi"],
+          "imagen": "https://i.pinimg.com/736x/bf/17/94/bf1794cd55a42c60dfb35e3d58f11ea6.jpg"
+        },
+        {
+          "id": "sakura",
+          "nombre": "Sakura Haruno",
+          "clan": "Haruno",
+          "aldea": "Konoha",
+          "rango": "Jonin / Médica Jefe",
+          "descripcion": "Una kunoichi excepcional que domina el jutsu médico y la fuerza sobrehumana, pupila de Tsunade.",
+          "poderes": ["Fuerza Sobrehumana", "Jutsu Médico", "Regeneración Celular (Fuerza de los Cien)", "Sello de Fuerza"],
+          "imagen": "https://i.pinimg.com/1200x/9d/5a/6d/9d5a6d2a8cb8ad6a949d23a9804a9ea2.jpg"
+        },
+        {
+          "id": "kakashi",
+          "nombre": "Kakashi Hatake",
+          "clan": "Hatake",
+          "aldea": "Konoha",
+          "rango": "Sexto Hokage (retirado)",
+          "descripcion": "El ninja copia, famoso por su Sharingan prestado y su técnica mil manos. Fue el sensei del Team 7.",
+          "poderes": ["Chidori", "Sharingan (Obito)", "Mil Manos", "Raikiri", "Susanoo (Perfecto)"],
+          "imagen": "https://i.pinimg.com/736x/6b/4b/cc/6b4bcc4bc8b66fc466310c29c2c99eeb.jpg"
+        },
+        {
+          "id": "sai",
+          "nombre": "Sai",
+          "clan": "Sin clan (Raíz de Danzo)",
+          "aldea": "Konoha",
+          "rango": "Jonin",
+          "descripcion": "Miembro tardío del Team 7, entrenado en la Raíz, maestro del arte del dibujo animado con tinta.",
+          "poderes": ["Jutsu de Tinta (Super Beast Scroll)", "Dibujos Animados", "Jutsu de Sellado", "Taijutsu"],
+          "imagen": "https://i.pinimg.com/736x/01/7f/41/017f41a0e9b35af4a3120bad229f7478.jpg"
+        }
+      ]
+    },
+    {
+      "id": "akatsuki",
+      "nombre": "Akatsuki",
+      "descripcion": "Organización criminal compuesta por ninjas renegados de élite que buscaban capturar a las Bestias con Cola.",
+      "miembros": [
+        {
+          "id": "pain",
+          "nombre": "Pain (Nagato)",
+          "clan": "Uzumaki (lejano)",
+          "aldea": "Amegakure",
+          "rango": "Líder de Akatsuki",
+          "descripcion": "Portador del Rinnegan, lideró Akatsuki con el objetivo de imponer la paz a través del dolor absoluto.",
+          "poderes": ["Rinnegan", "Los Seis Caminos del Dolor", "Shinra Tensei", "Chibaku Tensei", "Alma Humana"],
+          "imagen": "https://i.pinimg.com/736x/78/d7/84/78d7843e5e130d08415009027860e723.jpg"
+        },
+        {
+          "id": "itachi",
+          "nombre": "Itachi Uchiha",
+          "clan": "Uchiha",
+          "aldea": "Konoha (desertor)",
+          "rango": "S-Rank / Criminal",
+          "descripcion": "Genio del Clan Uchiha, asesinó a su clan por orden de Konoha para evitar un golpe de estado.",
+          "poderes": ["Mangekyō Sharingan", "Tsukuyomi", "Amaterasu", "Susanoo (Espada Totsuka + Yata Mirror)", "Shurikenjutsu"],
+          "imagen": "https://i.pinimg.com/736x/ef/34/0c/ef340c79603cc384e2e5f44e6171c20c.jpg"
+        },
+        {
+          "id": "obito",
+          "nombre": "Obito Uchiha (Tobi / Madara)",
+          "clan": "Uchiha",
+          "aldea": "Konoha (desertor)",
+          "rango": "S-Rank / Miembro de Akatsuki",
+          "descripcion": "El verdadero cerebro detrás de Akatsuki, manipuló a Nagato y desencadenó la Cuarta Guerra Ninja.",
+          "poderes": ["Mangekyō Sharingan", "Kamui (fase)", "Rinnegan", "Seis Caminos del Dolor", "Jugo de Diez Colas"],
+          "imagen": "https://i.pinimg.com/1200x/9b/20/db/9b20db2d5afa5d2d69c94b72ac8fa7ec.jpg"
+        },
+        {
+          "id": "orochimaru",
+          "nombre": "Orochimaru",
+          "clan": "Sin clan",
+          "aldea": "Konoha (desertor)",
+          "rango": "S-Rank / Criminal",
+          "descripcion": "Uno de los tres legendarios Sannin, obsesionado con aprender todos los jutsus y alcanzar la inmortalidad.",
+          "poderes": ["Kusanagi", "Jutsu de Invocación (Serpientes)", "Edo Tensei", "Inmortalidad (cambio de cuerpo)", "Jutsu Prohibidos"],
+          "imagen": "https://i.pinimg.com/1200x/70/4b/35/704b35d1993deae1492b4b1294d4b641.jpg"
+        },
+        {
+          "id": "kisame",
+          "nombre": "Kisame Hoshigaki",
+          "clan": "Hoshigaki",
+          "aldea": "Kirigakure (desertor)",
+          "rango": "S-Rank / Criminal",
+          "descripcion": "Conocido como el monstruo de la niebla, portador de Samehada, la espada con conciencia.",
+          "poderes": ["Samehada (absorción de chakra)", "Fusión con Samehada", "Gran Burbuja de Agua", "Jutsu de Tiburones", "Fuerza sobrehumana"],
+          "imagen": "https://i.pinimg.com/736x/79/87/76/798776cee61c8b41fc91b86b70def0fc.jpg"
+        },
+        {
+          "id": "deidara",
+          "nombre": "Deidara",
+          "clan": "Sin clan",
+          "aldea": "Iwagakure (desertor)",
+          "rango": "S-Rank / Criminal",
+          "descripcion": "Artista explosivo que usaba arcilla moldeada con chakra para crear bombas de todo tipo.",
+          "poderes": ["Arcilla Explosiva (C0, C1, C2, C3, C4)", "Pájaro de Arcilla", "Explosión Final (C0)"],
+          "imagen": "https://i.pinimg.com/736x/33/15/fd/3315fd1178edb3fa12d8ffa1775f21bb.jpg"
+        },
+        {
+          "id": "hidan",
+          "nombre": "Hidan",
+          "clan": "Sin clan",
+          "aldea": "Yugakure (desertor)",
+          "rango": "S-Rank / Criminal",
+          "descripcion": "Miembro inmortal de Akatsuki, seguidor del culto Jashin que requiere rituales de sacrificio.",
+          "poderes": ["Inmortalidad", "Ritual de Jashin (daño vinculado)", "Guadaña Triple", "Curse Technique"],
+          "imagen": "https://i.pinimg.com/736x/8a/d6/ef/8ad6ef0a7830ade8fd11878617bfa59f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hokages",
+      "nombre": "Hokages",
+      "descripcion": "Los líderes máximos de Konoha (Aldea Oculta de la Hoja), los ninjas más poderosos de cada generación.",
+      "miembros": [
+        {
+          "id": "hashirama",
+          "nombre": "Hashirama Senju (Primer Hokage)",
+          "clan": "Senju",
+          "aldea": "Konoha",
+          "rango": "Primer Hokage",
+          "descripcion": "Fundador de Konoha, conocido como el Dios Shinobi, único capaz de controlar al Diez Colas.",
+          "poderes": ["Mokuton (Madera)", "Regeneración Celular", "Sage Mode", "Mokujin (Deidad de mil brazos)", "Bestia con Cola"],
+          "imagen": "https://i.pinimg.com/736x/a2/29/52/a229522e27c69f0cbb54e0598e4846b2.jpg"
+        },
+        {
+          "id": "tobirama",
+          "nombre": "Tobirama Senju (Segundo Hokage)",
+          "clan": "Senju",
+          "aldea": "Konoha",
+          "rango": "Segundo Hokage",
+          "descripcion": "Hermano de Hashirama, desarrolló numerosos jutsus revolucionarios y estableció las academias ninja.",
+          "poderes": ["Suijutsu (Agua)", "Edo Tensei", "Hiraishin (Vuelo del Rayo)", "Kage Bunshin", "Flying Thunder God Slash"],
+          "imagen": "https://i.pinimg.com/736x/a6/35/05/a63505d2078c82849aca9c3042700819.jpg"
+        },
+        {
+          "id": "hiruzen",
+          "nombre": "Hiruzen Sarutobi (Tercer Hokage)",
+          "clan": "Sarutobi",
+          "aldea": "Konoha",
+          "rango": "Tercer Hokage",
+          "descripcion": "Conocido como el Dios Shinobi de su era, maestro de los Cinco Elementos y mentor del Sannin.",
+          "poderes": ["Cinco Elementos", "Enma (Rey Mono)", "Jutsu de Sellado (Shiki Fujin)", "Shuriken Shadow Clone", "Bola de Fuego"],
+          "imagen": "https://i.pinimg.com/1200x/77/c2/8b/77c28b8592af41dfa2faf60b7c4c5cee.jpg"
+        },
+        {
+          "id": "minato",
+          "nombre": "Minato Namikaze (Cuarto Hokage)",
+          "clan": "Namikaze",
+          "aldea": "Konoha",
+          "rango": "Cuarto Hokage",
+          "descripcion": "El relámpago amarillo de Konoha, padre de Naruto, héroe que selló al Nueve Colas con su vida.",
+          "poderes": ["Hiraishin (Vuelo del Rayo)", "Rasengan", "Modo Kurama (Chakra del Zorro)", "Sello de los Ocho Trigramas", "Velocidad teletransportación"],
+          "imagen": "https://i.pinimg.com/736x/5a/2b/9b/5a2b9be3e5faf68ae694febca2dba43c.jpg"
+        },
+        {
+          "id": "tsunade",
+          "nombre": "Tsunade Senju (Quinta Hokage)",
+          "clan": "Senju / Uzumaki (nieta)",
+          "aldea": "Konoha",
+          "rango": "Quinta Hokage",
+          "descripcion": "Una de las tres Sannin, mejor ninja médica del mundo y nieta del Primer Hokage.",
+          "poderes": ["Fuerza Sobrehumana", "Jutsu Médico Supremo", "Regeneración Celular (Fuerza de los Cien)", "Sello de Fuerza", "Invocación de Katsuyu"],
+          "imagen": "https://i.pinimg.com/1200x/8c/41/c9/8c41c91f4f3b64900a88546058f157f6.jpg"
+        },
+        {
+          "id": "kakashi_hokage",
+          "nombre": "Kakashi Hatake (Sexto Hokage)",
+          "clan": "Hatake",
+          "aldea": "Konoha",
+          "rango": "Sexto Hokage (retirado)",
+          "descripcion": "El ninja copia que lideró Konoha tras la guerra, famoso por su legado y sabiduría.",
+          "poderes": ["Chidori", "Raikiri", "Mil Manos", "Sharingan (pierde luego)", "Susanoo (Perfecto)", "Liderazgo táctico"],
+          "imagen": "https://i.pinimg.com/736x/c5/79/ad/c579ad1a66cca2828af02df383a5541e.jpg"
+        },
+        {
+          "id": "naruto_hokage",
+          "nombre": "Naruto Uzumaki (Séptimo Hokage)",
+          "clan": "Uzumaki / Namikaze",
+          "aldea": "Konoha",
+          "rango": "Séptimo Hokage",
+          "descripcion": "El héroe de la guerra, portador del Nueve Colas que cumplió su sueño de ser Hokage.",
+          "poderes": ["Modo Sabio de los Seis Caminos", "Rasengan (todas las variantes)", "Bola Bestia con Cola", "Modo Kurama", "Clones de Sombra", "Vuelo"],
+          "imagen": "https://i.pinimg.com/1200x/44/1d/a1/441da13063bb5d9cad1162e2a3e2a87d.jpg"
+        }
+      ]
+    }
+  ]
+}

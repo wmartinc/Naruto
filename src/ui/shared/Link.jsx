@@ -18,7 +18,7 @@ const Link = ({ children, source = "#" }) => {
 
   return (
     <motion.a href={source} className={`flex border  flex-center px-4 py-1    w-max rounded-md 
-      transition-colors duration-500 ml-auto relative ${isMouseOn ?  "border-white/80": "border-white/0"}`}
+      transition-colors duration-500 ml-auto relative ${isMouseOn ?  "border-brand": "border-white/0"}`}
       onMouseEnter={() => setIsMouseOn(true)}
       onMouseLeave={() => setIsMouseOn(false)}
     >

@@ -1,11 +1,18 @@
 @import 'tailwindcss';
 
+@theme {
+  --color-brand: #ea580c;
+  --color-brand-dim: #c2410c;
+  --color-surface: #0a0a0a;
+  --color-surface-raised: #141414;
+  --font-display: 'Bebas Neue', sans-serif;
+}
+
 body {
   box-sizing: border-box;
   font-family: "DM Sans", sans-serif;
   background-color: black;
 }
-
 
 .flex-center {
   display: flex;
@@ -13,18 +20,42 @@ body {
   align-items: center;
 }
 
-
 .contenedor:hover .personaje-capa {
-  top: 0
+  top: 0;
 }
-
 
 .personaje-capa {
   position: absolute;
   background-image: linear-gradient(to bottom, transparent, black 80%);
   top: 150%;
-  transition: top .5s ease-in-out;
+  transition: top 0.5s ease-in-out;
   width: 100%;
   height: 100%;
 }
 
+.card-3d {
+  perspective: 1200px;
+}
+
+.card-3d-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+}
+
+.card-3d:hover .card-3d-inner {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  -webkit-backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.team-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #ea580c, transparent);
+}
