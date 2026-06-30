@@ -1,6 +1,3 @@
-import Link from "../ui/shared/Link";
-
-
 const Contenedor = () => {
   return (
     <section className="h-screen flex w-full bg-black relative">
@@ -12,7 +9,6 @@ const Contenedor = () => {
           A lo largo de la saga lucha contra enemigos como los Akatsuki, descubre su propio poder gracias al zorro de nueve colas dentro de él,
           y aprende el valor de la amistad, la perseverancia y el perdón.
         </p>
-        <Link key={1} source="here">Ver mas</Link>
       </div>
     </section>
   )

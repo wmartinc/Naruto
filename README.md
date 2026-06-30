@@ -11,6 +11,9 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+# About this page
+This project was created for fun and as a showcase as well about my knowledge on animations, this webpage does not have a big content, just basic information about characters from Naruto.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Stack used.
+To build this page I used few dependencies to create animations, such as Motion. https://motion.dev/ 
+and tailwindcss to stylize components, the package manager used is PNPM.
