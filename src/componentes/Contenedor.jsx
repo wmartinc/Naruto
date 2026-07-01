@@ -1,6 +1,6 @@
 const Contenedor = () => {
   return (
-    <section className="h-screen flex w-full bg-black relative">
+    <section className="h-[500px] mb-25 md:mb-0 md:h-screen flex w-full bg-black relative">
       <img src="/naru.jpg" alt="portada" className="relative mask-linear-120 mask-linear-from-40% mask-linear-to-80% object-cover" />
       <div className="text-white px-4 absolute w-full md:w-100  bottom-2 md:bottom-5 md:right-5 md:p-0">
         <h1 className="text-3xl md:text-4xl font-display tracking-widest border-b border-brand pb-1">Resumen</h1>
