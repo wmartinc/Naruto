@@ -72,7 +72,7 @@ const Personaje = ({ fondo, className, titulo = "NARUTO", nombre, descripcion = 
     >
       <div className="personaje w-full sm:w-1/3 relative overflow-hidden ">
         <img src={fondo} alt="" className={`relative rounded-sm size-full`} />
-        <div className={`personaje-capa flex-col ${inView ? "top-0" : "top-150"}`}>
+        <div className={`personaje-capa relative flex-col ${inView ? "top-0" : "top-150"}`}>
           <img src={imgUrl} alt="" className="h-[60%] absolute bottom-0 left-1/2 -translate-x-1/2" />
         </div>
       </div>
