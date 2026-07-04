@@ -1,8 +1,9 @@
-import { useState } from "react"
+import { useState, useContext } from "react"
 import { AnimatePresence, motion } from 'motion/react'
 import { useInView } from "motion/react"
 import { useRef } from "react"
 import Tarjetas from "./Tarjetas"
+import { Contexto } from "../Contexto"
 import personajes from '../store/personajes.json'
 
 const Resumen = () => {
@@ -58,8 +59,10 @@ const Resumen = () => {
 
 const Personaje = ({ fondo, className, titulo = "NARUTO", nombre, descripcion = "Personaje del universo Naruto."}) => {
   const contenedor = useRef(null)
-  const inView = useInView(contenedor, { amount: .6 })
+  const inView = useInView(contenedor, { amount: 0.4 })
   const [isMouseOn, setIsMouseOn] = useState(false)
+  const { getImageUrl } = useContext(Contexto)
+  const imgUrl = getImageUrl(`${nombre}.png`)
 
   return (
     <div className={`rounded-sm shadow-sm flex flex-col md:flex-row contenedor gap-5 ${className}`}
@@ -69,8 +72,8 @@ const Personaje = ({ fondo, className, titulo = "NARUTO", nombre, descripcion = 
     >
       <div className="personaje w-full sm:w-1/3 relative overflow-hidden ">
         <img src={fondo} alt="" className={`relative rounded-sm size-full`} />
-        <div className="personaje-capa flex-col">
-          <img src={`/imagenes/${nombre}.png`} alt="" className="h-[60%] absolute bottom-0 left-1/2 -translate-x-1/2" />
+        <div className={`personaje-capa flex-col ${inView ? "top-0" : "top-150"}`}>
+          <img src={imgUrl} alt="" className="h-[60%] absolute bottom-0 left-1/2 -translate-x-1/2" />
         </div>
       </div>
 

@@ -1,8 +1,11 @@
 const Contenedor = () => {
   return (
-    <section className="h-[500px] mb-25 md:mb-0 md:h-screen flex w-full bg-black relative">
-      <img src="/naru.jpg" alt="portada" className="relative mask-linear-120 mask-linear-from-40% mask-linear-to-80% object-cover" />
-      <div className="text-white px-4 absolute w-full md:w-100  bottom-2 md:bottom-5 md:right-5 md:p-0">
+    <section className="h-screen mb-25 md:mb-0 md:h-screen flex w-full bg-black relative ">
+      <picture className="md:mask-linear-120 md:mask-linear-from-40% md:mask-linear-to-80% object-cover mask-b-from-0">
+        <source media="(max-width:768px)" srcSet="/naru_phone.jpg" />
+        <img src="/naru.jpg" alt="portada" className="relative h-full w-full object-top object-cover" />
+      </picture>
+      <div className="text-white px-4 absolute w-full md:w-100  bottom-2 md:bottom-5 md:right-5 md:p-0 z-10">
         <h1 className="text-3xl md:text-4xl font-display tracking-widest border-b border-brand pb-1">Resumen</h1>
         <p className="text-gray-50/70 text-sm md:text-base py-2">
           Naruto sigue a Naruto Uzumaki, un joven ninja que sueña con ser Hokage y ser respetado.
