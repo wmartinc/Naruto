@@ -3,7 +3,7 @@ const Tarjetas = ({ nombre, imagen, info = 'Información próximamente.', clan, 
     <div className="w-full h-72 md:h-96 lg:h-100 p-2 text-white card-3d group">
       <div className="card-3d-inner h-full w-full border rounded-xl border-white/10 transition-colors duration-500 group-hover:border-brand/50">
         <div className="card-face card-front borde absolute inset-0 flex flex-col overflow-hidden rounded-xl bg-surface">
-          <img src={imagen} className="h-4/5 w-full object-cover" alt={nombre} />
+          <img src={imagen} className="h-4/5 w-full object-cover" loading="lazy" alt={nombre} />
           <div className="flex h-1/5 items-center justify-center px-3 text-center text-base font-semibold tracking-wide">
             <span>{nombre}</span>
           </div>
