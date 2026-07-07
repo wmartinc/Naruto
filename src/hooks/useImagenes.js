@@ -6,7 +6,7 @@ export function useImagenes() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/image-url")
+    fetch("https://backend-naruto.vercel.app/api/image-url")
       .then(r => {
         if (!r.ok) throw new Error("Error al obtener imágenes")
         return r.json()
