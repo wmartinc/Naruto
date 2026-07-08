@@ -15,8 +15,8 @@ const Resumen = () => {
         const [principal, ...resto] = equipo.miembros
         return (
           <section key={equipo.id} className="py-8 md:py-16">
-            <div className="container mb-6 md:mb-10">
-              <div className="flex items-center gap-3 md:gap-6 mb-4">
+            <div className="container mb-6 md:mb-10 mx-auto">
+              <div className="flex items-center gap-3 md:gap-6 mb-4 ">
                 <div className="team-divider flex-1" />
                 <h2 className="font-display text-xl md:text-3xl text-brand tracking-[0.15em] whitespace-nowrap">
                   {String(i + 1).padStart(2, '0')}
