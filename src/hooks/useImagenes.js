@@ -1,4 +1,4 @@
-const ENDPOINT_IMAGENES = import.meta.env.VITE_ENDPOINT_IMAGENES
+const ENDPOINT_IMAGENES = import.meta.env.VITE_ENDPOINT_IMAGENES || "http://localhost:3000/api/image-url"
 
 import { useState, useEffect } from "react"
 
